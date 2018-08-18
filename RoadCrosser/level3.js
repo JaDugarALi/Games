@@ -224,7 +224,7 @@ function draw() {
 
 //Movements
 //Right movement
-  if (key === "d" || mouseIsPressed || touchIsDown) {
+  if (key === "d" || mouseIsPressed) {
 	xp = xp + 3;
   }
 
